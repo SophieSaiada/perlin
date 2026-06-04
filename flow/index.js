@@ -48,7 +48,7 @@ const Particle = function () {
 const particles = [];
 
 function setup() {
-  createCanvas(windowWidth / 2, windowHeight / 2);
+  createCanvas(windowWidth, windowHeight);
   for (let i = 0; i < 3000; i++) {
     particles.push(new Particle());
   }
