@@ -19,6 +19,10 @@ function mouseClicked() {
   darkMode = !darkMode;
 }
 
+function touchStarted() {
+  darkMode = !darkMode;
+}
+
 function draw() {
   for (let x = 0; x < WIDTH; x++) {
     for (let y = 0; y < HEIGHT; y++) {
